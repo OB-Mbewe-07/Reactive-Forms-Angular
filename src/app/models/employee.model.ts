@@ -8,7 +8,7 @@ export interface Employee{
     experiences: EmployeeExperience[]; 
 }
 
-interface EmployeeExperience{
+export interface EmployeeExperience{
     company: string;
     role: string;
     years: number;
